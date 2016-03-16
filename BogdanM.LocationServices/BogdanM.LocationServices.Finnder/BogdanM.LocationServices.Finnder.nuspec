@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>BogdanM.LocationServices.Finnder</id>
+		<title>BogdanM.LocationServices.Finnder</title>
+		<authors>Mihai Bogdan Eugen</authors>
+		<owners>Mihai Bogdan Eugen</owners>
+		<version>1.0.0</version>	
+		<licenseUrl>https://raw.githubusercontent.com/MihaiBogdanEugen/BogdanM.LocationServices.Finnder/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/MihaiBogdanEugen/BogdanM.LocationServices.Finnder</projectUrl>
+		<tags>Finnder Location geocoding reverse geocoding distance route</tags>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<language>en-US</language>
+		<description>Finnder lib for basic location services operations like geocoding, reverse geocoding, routing and distance.</description>
+		<summary>Finnder lib for basic location services operations like geocoding, reverse geocoding, routing and distance.</summary>
+		<copyright>Copyright &#169; 2016 Mihai Bogdan Eugen</copyright>
+		<dependencies>
+			<dependency id="BogdanM.LocationServices.Core" version="1.0.2" />
+			<dependency id="Newtonsoft.Json" version="8.0.3" />
+		</dependencies>	
+	</metadata>
+	<files>
+		<file src="bin\Release\BogdanM.LocationServices.Finnder.*" target="lib" />
+	</files> 	
+</package>
