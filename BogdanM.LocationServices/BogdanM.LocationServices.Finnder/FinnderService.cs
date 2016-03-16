@@ -81,7 +81,7 @@ namespace BogdanM.LocationServices.Finnder
             if (geocodingResponse == null || geocodingResponse.Length == 0)
                 return default(LatLng);
 
-            return new LatLng(geocodingResponse[0].Lat, geocodingResponse[0].Long);
+            return new LatLng(geocodingResponse[0].Lat, geocodingResponse[0].Lon);
         }
 
         /// <summary>
@@ -126,7 +126,7 @@ namespace BogdanM.LocationServices.Finnder
             if (geocodingResponse == null || geocodingResponse.Length == 0)
                 return default(LatLng);
 
-            return new LatLng(geocodingResponse[0].Lat, geocodingResponse[0].Long);
+            return new LatLng(geocodingResponse[0].Lat, geocodingResponse[0].Lon);
         }
 
         /// <summary>
@@ -173,7 +173,7 @@ namespace BogdanM.LocationServices.Finnder
 
             return new Address
             {
-                StreetName = geocodingResponse[1].StreetName,
+                StreetName = geocodingResponse[0].StreetName,
                 StreetNo = geocodingResponse[0].StreetNo
             };
         }
